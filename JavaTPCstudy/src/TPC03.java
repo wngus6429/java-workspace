@@ -7,9 +7,9 @@ public class TPC03 {
         // TODO Auto-generated method stub
         Book b;
         b = new Book();
-        b.title = "자바임";
+        b.title = "책이름";
         b.price = 1000;
-        b.company = "회사";
+        b.company = "회사임";
         b.page = 700;
 
         System.out.print(b.title+"\t");
@@ -19,7 +19,7 @@ public class TPC03 {
 
         PersonVO p;
         p = new PersonVO();
-        p.name = "주현";
+        p.name = "박주현님";
         p.age = 40;
         p.weight = 68.4f;
         p.height = 175.7f;
