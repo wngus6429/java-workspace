@@ -1,19 +1,19 @@
-package kr.tpc;
+package kr.bit;
 
 public class Inflern {
-	// static 이 다 붙어 있으면 생성자를 쓸 필요가 없으므로
-	// private를 박아주는게 좋다.
+	// static �擽 �共 �ｶ呷牟 �梭�愍�ｩｴ ��晧┳�梵�･ｼ �萄 﨑�囈�ｰ� �螺�愍�ｯ��｡�
+	// private�･ｼ �ｰ菩符�｣ｼ�株�ｲ� �｢躯共.
 	private Inflern() {}
-	// 인스턴스 메서드
+	// �攤�侃奓ｴ�侃 �ｩ肥�罹糖
 	public static void tpc() {
 		System.out.println("TPC, Fucking Fun");
 	}
-	// 클래스메서드
+	// 增ｴ�椈�侃�ｩ肥�罹糖
 	public static void java() {
 		System.out.println("Java lecture Very Fun");
 	}
-	// 인스턴스 메서드, 밑에 static이 없는 상태라서 
-	// 위에 public Inflern(){} 해줘야함
+	// �攤�侃奓ｴ�侃 �ｩ肥�罹糖, �ｰ卓乱 static�擽 �螺�株 �メ夋罹攵��� 
+	// �怱�乱 public Inflern(){} 﨑ｴ�､們幣﨑ｨ
 	// public void FFack() {
 	//    System.out.println("TPC, Fucking Fun");
 	// }

@@ -1,17 +1,15 @@
-package practice;
-
 public class TPC07 {
 	public static void main(String[] args) {
 		int a = 20;
 		float b = 56.7f;
-		float v =sum(a, b); //Call by value 값을 전달하는 방법
+		float v =sum(a, b); //Call by value �ｰ廷揆 ���峡﨑俯株 �ｰｩ�ｲ�
 		System.out.println(v);
-		// 매개변수로 던질때 갯수랑 타입이 맞아야한다.
+		// �ｧ､�ｰ罹ｳ���俯｡� �腰�ｧ壱阜 �ｰｯ��俯梠 夋��桿�擽 �ｧ樌符�幣﨑罹共.
 		int[] arr = {1,2,3,4,5};
-		int sumvalue = arrSum(arr); //Call by Reference(번지)
+		int sumvalue = arrSum(arr); //Call by Reference(�ｲ溢ｧ�)
 		System.out.println(sumvalue);
 	}
-	// 같은 클래스 파일안이라서 private 언제든지 호출이 가능하지.
+	// �ｰ呷捩 增ｴ�椈�侃 甯護攵�譜�擽�攵��� private �椋��罹蕩�ｧ� 嶸ｸ�ｶ懍擽 �ｰ��冠﨑們ｧ�.
 	private static int arrSum(int[] x) {
 		int hap =0;
 		for (int i = 0; i < x.length; i++) {

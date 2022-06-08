@@ -1,6 +1,4 @@
-package practice;
-
-import kr.tpc.BookVO;
+import kr.bit.BookVO;
 
 public class TPC11 {
 	public static void main(String[] args) {

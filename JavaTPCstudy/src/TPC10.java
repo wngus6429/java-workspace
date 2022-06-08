@@ -1,14 +1,14 @@
 package practice;
 
-import kr.tpc.BookDTO;
+import kr.bit.BookDTO;
 
 public class TPC10 {
 	public static void main(String[] args) {
 		// int, float, char, boolean -> PDT,
-		// 프리미티브타입
+		// 嵓�ｦｬ�ｯｸ寀ｰ�ｸ醐ム�桿
 		int a = 10;
-		// 책이라는 자료형을 만들자 --> 클래스로
-		// 객체 생성
+		// �ｱ��擽�攵�株 �梵�｣醐�菩揆 �ｧ誤豆�梵 --> 增ｴ�椈�侃�｡�
+		// �ｰ晧ｲｴ ��晧┳
 		BookDTO b = new BookDTO();
 		b.title = "kuso";
 		b.price = 1999;

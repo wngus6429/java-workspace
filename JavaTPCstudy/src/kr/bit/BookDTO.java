@@ -1,17 +1,17 @@
-package kr.tpc;
+package kr.bit;
 
 public class BookDTO {
 	public String title;
 	public int price;
 	public String company;
 	public int page;
-	// 디폴트 생성자 메서드(생략), 프로그램이 자동으로 해줌
+	// �粕尞ｴ孖ｸ ��晧┳�梵 �ｩ肥�罹糖(��晤楫), 嵓�｡懋ｷｸ�棹�擽 �梵�徐�愍�｡� 﨑ｴ�､�
 	//	public BookDTO() {
-	//	  // 객체를 생성하는 작업한다.(기계어코드)
+	//	  // �ｰ晧ｲｴ�･ｼ ��晧┳﨑俯株 �梠�羅﨑罹共.(�ｸｰ�ｳ�牟�ｽ罷糖)
 	//		super();
 	//	}
-	// 마우스 오른쪽에서 source, Generate Constructor Using Field
-	// 하면 자동으로 밑에께 생성이됨 ㅎㄷㄷ
+	// �ｧ溢垈�侃 �丶�･ｸ�ｪｽ�乱��� source, Generate Constructor Using Field
+	// 﨑俯ｩｴ �梵�徐�愍�｡� �ｰ卓乱�ｻ� ��晧┳�擽�勢 繞弱┨繖ｷ
 	public BookDTO(String title, int price, String company, int page) {
 		this.title = title;
 		this.price = price;

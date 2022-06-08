@@ -1,18 +1,16 @@
-package practice;
-
-import kr.tpc.BookDTO;
+import kr.bit.BookDTO;
 
 public class TPC13 {
 	public static void main(String[] args) {
-		// 책 ㅡ> class(BookDTO) ㅡ> 객체 ㅡ> 인스턴스
+		// �ｱ� 繞｡> class(BookDTO) 繞｡> �ｰ晧ｲｴ 繞｡> �攤�侃奓ｴ�侃
 		String title = "spring";
 		int price = 25000;
 		String company = "comcomm";
 		int page = 8890;
-		// dto(Object:객체), 
-		BookDTO dto; // dto(instance:인스턴스)
+		// dto(Object:�ｰ晧ｲｴ), 
+		BookDTO dto; // dto(instance:�攤�侃奓ｴ�侃)
 		dto=new BookDTO(title, price, company, page); 
-		// 이동하기
+		// �擽�徐﨑俾ｸｰ
 		bookPrint(dto);
 	}
 	public static void bookPrint(BookDTO dto) {

@@ -1,10 +1,8 @@
-package practice;
-
-import kr.tpc.BookVO;
+import kr.bit.BookVO;
 
 public class TPC12 {
 	public static void main(String[] args) {
-	 // 생성자 ㅡ> 생성 + 초기화 ㅡ> 중복정의
+	 // ��晧┳�梵 繞｡> ��晧┳ + �ｴ一ｸｰ嶹� 繞｡> �､瀧ｳｵ��菩攪
 		BookVO b1 = new BookVO();
 		System.out.print(b1.title+"\t");
 		System.out.print(b1.price+"\t");

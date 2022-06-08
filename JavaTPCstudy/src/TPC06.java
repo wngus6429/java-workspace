@@ -1,5 +1,3 @@
-package practice;
-
 public class TPC06 {
 
 	public static void main(String[] args) {
@@ -15,16 +13,16 @@ public class TPC06 {
 		}
 		System.out.println(hap);
 	}
-	// void는 리턴을 하지 않겠다는거
-	// static 끼리 되어 있어야 바로 호출할수 있다. 
-	// 서로 안되어 있어도 다른 방법이 있음. 다음에 설명
-	// sum이라는 함수가 메모리에 있어야 main에서 호출할수 있다
+	// void�株 �ｦｬ奓ｴ�揆 﨑們ｧ� �賦�ｲ��共�株�ｱｰ
+	// static �⊂�ｦｬ �据�牟 �梭�牟�幣 �ｰ罷｡� 嶸ｸ�ｶ懦腹��� �梭�共. 
+	// ��罹｡� �譜�据�牟 �梭�牟�巡 �共�･ｸ �ｰｩ�ｲ菩擽 �梭�搆. �共�搆�乱 �└�ｪ�
+	// sum�擽�攵�株 﨑ｨ��俾ｰ� �ｩ罷ｪｨ�ｦｬ�乱 �梭�牟�幣 main�乱��� 嶸ｸ�ｶ懦腹��� �梭�共
 	public static int sum(int a, int b) {
 		int v = a + b;
 		return v;
 	}
-	// 10, 20, 30 복수로 하고 싶을 경우
-	// 근데 한개만 리턴 할수 있어서 return 10, 20, 30 이런 형태 안됨
+	// 10, 20, 30 �ｳｵ��俯｡� 﨑俾ｳ� �狂�揆 �ｲｽ�垈
+	// �ｷｼ�魂 﨑懋ｰ罹ｧ� �ｦｬ奓ｴ 﨑���� �梭�牟��� return 10, 20, 30 �擽�涓 嶸倣�� �譜�勢
 	public static int[] makeArr() {
 		int x = 10;
 		int y = 20;
