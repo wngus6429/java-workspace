@@ -1,53 +1,29 @@
+package practice;
 
 public class TPC05 {
 
 	public static void main(String[] args) {
-		int[] a = new int[3];
-		a[0] = 10;
-		a[1] = 22;
-		a[2] = 33;
-		int sum = 0;
-		for(int i=0; i<a.length; i++) {
-			sum+=a[i];
-		}
-		System.out.println(sum);
+		int[][] a = new int[3][4];
+		a[0][0] = 11;
+		a[0][1] = 12;
+		a[0][2] = 13;
+		a[0][3] = 14;
 		
-		int[][] b = new int[3][3];
-		b[0][0]=1;
-		b[0][1]=2;
-		b[0][2]=3;
+		a[1][0] = 21;
+		a[1][1] = 22;
+		a[1][2] = 23;
+		a[1][3] = 24;
 		
-		b[1][0]=22;
-		b[1][1]=33;
-		b[1][2]=44;
+		a[2][0] = 31;
+		a[2][1] = 32;
+		a[2][2] = 33;
+		a[2][3] = 34;
 		
-		b[2][0]=55;
-		b[2][1]=66;
-		b[2][2]=77;;
-		
-		System.out.println("여기임");
-		
-		for(int i=0; i < b.length; i++) {
-			for(int j=0; j < b[i].length; j++) {
-				System.out.print(b[i][j]+"\t");
+		for (int i = 0; i < a.length; i++) {
+			for (int j = 0; j < a.length; j++) {
+				System.out.println(a[i][j]);
 			}
-			System.out.println();
 		}
-		System.out.println("가즈아");
-		// 가변길이 배열
-		int[][] star = new int[5][];
-		star[0] = new int[1];
-		star[1] = new int[2];
-		star[2] = new int[3];
-		star[3] = new int[4];
-		star[4] = new int[5];
-		for(int i=0; i < star.length; i++) {
-			for(int j=0; j < star[i].length; j++) {
-				star[i][j] = '*';
-				System.out.print((char)star[i][j]);
-			}
-			System.out.println();
-		}				
 	}
 
 }
