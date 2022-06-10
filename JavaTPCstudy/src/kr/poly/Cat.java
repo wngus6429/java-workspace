@@ -1,4 +1,4 @@
-package kr.tpc;
+package kr.poly;
 
 public class Cat extends Animal{
 	public void night() {
@@ -6,6 +6,7 @@ public class Cat extends Animal{
 	}
 	@Override
 	public void eat() {
-		System.out.println("고양이 처럼 먹다.");
-	}	
+		System.out.println("고양이처럼 먹다");
+	}
+	
 }
